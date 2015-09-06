@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B110E0231B9BEF9E0075DC40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B110E0221B9BEF9E0075DC40 /* main.m */; };
+		B1ECE9441B9BF125003B5111 /* ClickVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ECE9401B9BF125003B5111 /* ClickVolume.m */; };
+		B1ECE9451B9BF125003B5111 /* MuteVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ECE9411B9BF125003B5111 /* MuteVolume.m */; };
+		B1ECE9461B9BF125003B5111 /* Volume.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ECE9431B9BF125003B5111 /* Volume.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B110E01D1B9BEF9E0075DC40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B110E01F1B9BEF9E0075DC40 /* VolumeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VolumeTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B110E0221B9BEF9E0075DC40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1ECE93E1B9BF125003B5111 /* MuteVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteVolume.h; sourceTree = "<group>"; };
+		B1ECE93F1B9BF125003B5111 /* ClickVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickVolume.h; sourceTree = "<group>"; };
+		B1ECE9401B9BF125003B5111 /* ClickVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickVolume.m; sourceTree = "<group>"; };
+		B1ECE9411B9BF125003B5111 /* MuteVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteVolume.m; sourceTree = "<group>"; };
+		B1ECE9421B9BF125003B5111 /* Volume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volume.h; sourceTree = "<group>"; };
+		B1ECE9431B9BF125003B5111 /* Volume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volume.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B110E01C1B9BEF9E0075DC40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B110E0161B9BEF9E0075DC40 = {
+			isa = PBXGroup;
+			children = (
+				B110E0211B9BEF9E0075DC40 /* VolumeTest */,
+				B110E0201B9BEF9E0075DC40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B110E0201B9BEF9E0075DC40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B110E01F1B9BEF9E0075DC40 /* VolumeTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B110E0211B9BEF9E0075DC40 /* VolumeTest */ = {
+			isa = PBXGroup;
+			children = (
+				B1ECE93E1B9BF125003B5111 /* MuteVolume.h */,
+				B1ECE93F1B9BF125003B5111 /* ClickVolume.h */,
+				B1ECE9401B9BF125003B5111 /* ClickVolume.m */,
+				B1ECE9411B9BF125003B5111 /* MuteVolume.m */,
+				B1ECE9421B9BF125003B5111 /* Volume.h */,
+				B1ECE9431B9BF125003B5111 /* Volume.m */,
+				B110E0221B9BEF9E0075DC40 /* main.m */,
+			);
+			path = VolumeTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B110E01E1B9BEF9E0075DC40 /* VolumeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B110E0261B9BEF9E0075DC40 /* Build configuration list for PBXNativeTarget "VolumeTest" */;
+			buildPhases = (
+				B110E01B1B9BEF9E0075DC40 /* Sources */,
+				B110E01C1B9BEF9E0075DC40 /* Frameworks */,
+				B110E01D1B9BEF9E0075DC40 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumeTest;
+			productName = VolumeTest;
+			productReference = B110E01F1B9BEF9E0075DC40 /* VolumeTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B110E0171B9BEF9E0075DC40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TomohikoHirose;
+				TargetAttributes = {
+					B110E01E1B9BEF9E0075DC40 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B110E01A1B9BEF9E0075DC40 /* Build configuration list for PBXProject "VolumeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B110E0161B9BEF9E0075DC40;
+			productRefGroup = B110E0201B9BEF9E0075DC40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B110E01E1B9BEF9E0075DC40 /* VolumeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B110E01B1B9BEF9E0075DC40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1ECE9441B9BF125003B5111 /* ClickVolume.m in Sources */,
+				B1ECE9451B9BF125003B5111 /* MuteVolume.m in Sources */,
+				B110E0231B9BEF9E0075DC40 /* main.m in Sources */,
+				B1ECE9461B9BF125003B5111 /* Volume.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B110E0241B9BEF9E0075DC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B110E0251B9BEF9E0075DC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B110E0271B9BEF9E0075DC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B110E0281B9BEF9E0075DC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B110E01A1B9BEF9E0075DC40 /* Build configuration list for PBXProject "VolumeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B110E0241B9BEF9E0075DC40 /* Debug */,
+				B110E0251B9BEF9E0075DC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B110E0261B9BEF9E0075DC40 /* Build configuration list for PBXNativeTarget "VolumeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B110E0271B9BEF9E0075DC40 /* Debug */,
+				B110E0281B9BEF9E0075DC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B110E0171B9BEF9E0075DC40 /* Project object */;
+}
